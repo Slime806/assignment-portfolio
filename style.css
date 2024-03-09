@@ -1,0 +1,216 @@
+*{
+    font-family: "Poppins";
+}
+body{
+    background-color: rgb(240, 237, 237);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 20px;
+    background-color: white;
+    position: relative;
+}
+header > h1{
+    margin: 0;
+}
+/* .navbar{
+    list-style: none;
+    display: flex;
+}
+.navbar-item{
+  
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+} */
+
+.navbar> a{
+    text-decoration: none;
+    color:black;
+    padding-bottom: 5px;
+    border-bottom: solid 1px crimson;
+    margin-left: 20px;
+}
+
+.navbar> a:hover{
+    background-color: crimson;
+}
+
+section{
+    display: flex;
+    gap: 50px;
+    padding: 20px 120px;
+    padding: 20px 120px;
+    background-color: rgb(240, 237, 237);
+}
+
+.profil {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.profil-img> img{
+    width: 200px; 
+    border-radius: 10px;
+}
+.profil-head >h1{
+    margin: 0;
+}
+.profil-head >p{
+    margin: 0;
+}
+
+.profil-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content:flex-start;
+    text-align: justify;
+
+}
+
+.profil-item-satu > h4{
+    margin: 0;
+}
+.profil-item-satu >p{
+    margin: 0;
+}
+
+.detail-profil{
+    background-color: rgb(237, 247, 247);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.profil-kedua{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    padding: 10px;
+    border-radius: 10px;
+}
+.detail-profil-kedua{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.detail-profil-kedua >h1{
+    margin: 0;
+    padding-bottom: 3px;
+    border-bottom: solid 1px crimson;
+}
+.about >p{
+    margin: 0;
+}
+
+.about{
+    background-color: rgb(255, 241, 111);
+    padding: 20px;
+    border-radius: 10px;
+}
+.head-kedua{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+
+}
+.head-kedua > h1{
+    margin: 0;
+    padding-bottom: 3px;
+    border-bottom: solid 1px crimson;
+}
+
+.head-kedua-item{
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h4 {
+    margin: 0;
+}
+
+
+.detail-experience{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.detail-experience-satu{
+    background-color: rgb(255, 241, 111);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project-satu{
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.detail-experience > h1 {
+    margin: 0;
+    padding-bottom: 3px;
+    border-bottom: solid 1px crimson;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    gap: 50px;
+    padding: 20px 120px;
+}
+
+.detail-footer >span{
+    margin-right: 15px;
+    padding: 10px;
+    background-color: rgb(204, 204, 200);
+    border-radius: 10px;
+    line-height: 3.5;
+}
+
+@media (max-width: 991.98px) { 
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+#section-dua{
+    display: flex;
+    padding: 20px 120px;
+    text-align: justify;
+}
+
+@media (max-width: 899px) { 
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .profil-img> img{
+        width: 350px; 
+      
+    }
+
+    #section-dua{
+        gap: 20px;
+    }
+}
